@@ -4,13 +4,12 @@
     <title>Memproses Scan...</title>
     <script>
         window.onload = function() {
-            var nama = "Anonim";  // Bisa diubah jika punya sistem login
-            var userAgent = navigator.userAgent;  // Ambil jenis perangkat
-            var email = "";  // Email hanya bisa diambil di Web App
-
+            var nama = "Anonim";  
+            var userAgent = navigator.userAgent;  
+            
             // URL Web App dari Google Apps Script
             var webAppURL = "https://script.google.com/macros/s/AKfycbwb0xP18G3ahG3gvFyFYCXE78D9FGOEjk9Uttt8_6xR5Ixl0t1UdhgrT6Cc5eYO-nrH/exec";
-
+            
             // Buat URL dengan parameter
             var targetURL = webAppURL + "?nama=" + encodeURIComponent(nama) + "&ua=" + encodeURIComponent(userAgent);
 
