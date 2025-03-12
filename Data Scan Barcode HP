@@ -9,7 +9,7 @@
             var email = "";  // Email hanya bisa diambil di Web App
 
             // URL Web App dari Google Apps Script
-            var webAppURL = "https://script.google.com/macros/s/DEPLOYMENT_URL/exec";
+            var webAppURL = "https://script.google.com/macros/s/AKfycbwb0xP18G3ahG3gvFyFYCXE78D9FGOEjk9Uttt8_6xR5Ixl0t1UdhgrT6Cc5eYO-nrH/exec";
 
             // Buat URL dengan parameter
             var targetURL = webAppURL + "?nama=" + encodeURIComponent(nama) + "&ua=" + encodeURIComponent(userAgent);
